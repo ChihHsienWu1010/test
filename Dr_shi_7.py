@@ -6,12 +6,7 @@ Created on Wed Jan  1 17:12:02 2025
 @author: anyuchen
 """
 
-import pandas as pd
-from matplotlib import pyplot as plt
-import matplotlib
-#設定全域輸出圖片的尺寸及畫素
-matplotlib.rcParams["figure.figsize"]=(10,6)
-matplotlib.rcParams["figure.dpi"]=500
+
 
 #讀取匯入資料
 
