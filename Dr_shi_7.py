@@ -14,9 +14,7 @@ matplotlib.rcParams["figure.figsize"]=(10,6)
 matplotlib.rcParams["figure.dpi"]=500
 
 #讀取匯入資料
-df=pd.read_excel(r"/Users/anyuchen/Desktop/Dr_shi2.xlsx")
-#將ICUstayingdays和admission_day的住院天數扣1天，以24小時計算
-#df.drop(df[df['ICUstayingdays']==0].index,inplace=True)
+
 #print(df["ICUstayingdays"].count())
 #df['ICUstayingdays']=df['ICUstayingdays']-1
 #df['admission_day']=df['admission_day']-1
